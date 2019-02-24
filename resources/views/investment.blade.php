@@ -109,40 +109,60 @@
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">Doopla.mx</div>
-                            <div class="col-lg-7"></div>
+                            <div class="col-lg-2"><img src="img/logos/doopla.png" style="width: 170px;" alt="doopla"></div>
+                            <div class="col-lg-2 text-center">Plaforma P2P</div>
+                            <div class="col-lg-2 text-center">3 a 30 meses</div>
+                            <div class="col-lg-2 text-center">12 a 26%</div>
+                            <div class="col-lg-2 text-center">5%</div>
+                            <div class="col-lg-2 text-center">2500</div>
                           </div>
                         </div>
                       </div>
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">YoTePresto</div>
-                            <div class="col-lg-7"></div>
+                            <div class="col-lg-2"><img src="img/logos/logo_yotepresto.png" style="width: 170px;" alt="yo te presto"></div>
+                            <div class="col-lg-2 text-center">Plaforma P2P</div>
+                            <div class="col-lg-2 text-center">6 y 3 meses</div>
+                            <div class="col-lg-2 text-center">8.9 y 38.9%</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">10000</div>
                           </div>
                         </div>
                       </div>
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">Prestadero</div>
-                            <div class="col-lg-7"></div>
+                            <div class="col-lg-2"><img src="img/logos/prestadero.png" style="width: 170px;" alt="prestadero"></div>
+                            <div class="col-lg-2 text-center">Plaforma P2P</div>
+                            <div class="col-lg-2 text-center">12, 24 y 36 meses</div>
+                            <div class="col-lg-2 text-center">8.9 a 28.9%</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">250</div>
                           </div>
                         </div>
                       </div>
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">Afluenta</div>
-                            <div class="col-lg-7"></div>
+                            <div class="col-lg-2"><img src="img/logos/afluenta.png" style="width: 170px;" alt="afluenta"></div>
+                            <div class="col-lg-2 text-center">Plaforma P2P</div>
+                            <div class="col-lg-2 text-center">12 y 48 meses</div>
+                            <div class="col-lg-2 text-center">8.5 y 50.5%</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">5000</div>
                           </div>
                         </div>
                       </div>
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">Kubo</div>
-                            <div class="col-lg-7"></div>
+                            <div class="col-lg-2"><img src="img/logos/KuboFinancieroOk.jpg" style="width: 170px;" alt="kubo"></div>
+                            <div class="col-lg-2 text-center">Plaforma P2P</div>
+                            <div class="col-lg-2 text-center">4 y 18 meses</div>
+                            <div class="col-lg-2 text-center">16.5 y 61.5%</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">5000</div>
                           </div>
                         </div>
                       </div>
@@ -152,11 +172,36 @@
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">
-                              cetes
-                            </div>
-                            <div class="col-lg-7">
-                            </div>
+                            <div class="col-lg-2"><img src="img/logos/Cetesdirecto.png" style="width: 170px;" alt="cetes"></div>
+                            <div class="col-lg-2 text-center">CETES</div>
+                            <div class="col-lg-2 text-center">28 dias</div>
+                            <div class="col-lg-2 text-center">7.86%</div>
+                            <div class="col-lg-2 text-center">0</div>
+                            <div class="col-lg-2 text-center">100</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-2">
+                        <div class="card-body">
+                          <div class="row align-items-center flex-row">
+                            <div class="col-lg-2"><img src="img/logos/Cetesdirecto.png" style="width: 170px;" alt="cetes"></div>
+                            <div class="col-lg-2 text-center">CETES</div>
+                            <div class="col-lg-2 text-center">3 meses</div>
+                            <div class="col-lg-2 text-center">8.17%</div>
+                            <div class="col-lg-2 text-center">0</div>
+                            <div class="col-lg-2 text-center">100</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-2">
+                        <div class="card-body">
+                          <div class="row align-items-center flex-row">
+                            <div class="col-lg-2"><img src="img/logos/Cetesdirecto.png" style="width: 170px;" alt="cetes"></div>
+                            <div class="col-lg-2 text-center">CETES</div>
+                            <div class="col-lg-2 text-center">6 meses</div>
+                            <div class="col-lg-2 text-center">8.35%</div>
+                            <div class="col-lg-2 text-center">0</div>
+                            <div class="col-lg-2 text-center">100</div>
                           </div>
                         </div>
                       </div>
@@ -166,28 +211,78 @@
                       <div class="card mb-2">
                         <div class="card-body">
                           <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">
-                              inmobiliario
-                            </div>
-                            <div class="col-lg-7">
-                            </div>
+                            <div class="col-lg-2"><img src="img/logos/expansive.png" style="width: 170px;" alt="expansive"></div>
+                            <div class="col-lg-2 text-center">Crowdfunding Inmobiliario</div>
+                            <div class="col-lg-2 text-center">12 a 18 meses</div>
+                            <div class="col-lg-2 text-center">13 a 13.5%</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">5000</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-2">
+                        <div class="card-body">
+                          <div class="row align-items-center flex-row">
+                            <div class="col-lg-2"><img src="img/logos/logo-briq.png" style="width: 170px;" alt="expansive"></div>
+                            <div class="col-lg-2 text-center">Crowdfunding Inmobiliario</div>
+                            <div class="col-lg-2 text-center">17 a 24 meses</div>
+                            <div class="col-lg-2 text-center">14.5 a 17% por duracion de proyecto</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">5000</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-2">
+                        <div class="card-body">
+                          <div class="row align-items-center flex-row">
+                            <div class="col-lg-2"><img src="img/logos/inverspot-1.png" style="width: 170px;" alt="expansive"></div>
+                            <div class="col-lg-2 text-center">Crowdfunding Inmobiliario</div>
+                            <div class="col-lg-2 text-center">15 a 20 meses</div>
+                            <div class="col-lg-2 text-center">22 a 31% por duracion de proyecto</div>
+                            <div class="col-lg-2 text-center">ND</div>
+                            <div class="col-lg-2 text-center">100000</div>
                           </div>
                         </div>
                       </div>
                     </div>
 
                     <div class="card-body collapse" id="banca">
-                      <div class="card mb-2">
-                        <div class="card-body">
-                          <div class="row align-items-center flex-row">
-                            <div class="col-lg-5">
-                              banca
-                            </div>
-                            <div class="col-lg-7">
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <div class="row align-items-center flex-row">
+                              <div class="col-lg-2"><img src="img/logos/hsbc.png" style="width: 160px;" alt="hsbc"></div>
+                              <div class="col-lg-2 text-center">Banca Tradicional</div>
+                              <div class="col-lg-2 text-center">6 Meses</div>
+                              <div class="col-lg-2 text-center">6.76% anual</div>
+                              <div class="col-lg-2 text-center">ND</div>
+                              <div class="col-lg-2 text-center">1000</div>
                             </div>
                           </div>
                         </div>
-                      </div>
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <div class="row align-items-center flex-row">
+                              <div class="col-lg-2"><img src="img/logos/Banregio.png" style="width: 160px;" alt="hsbc"></div>
+                              <div class="col-lg-2 text-center">Banca Tradicional</div>
+                              <div class="col-lg-2 text-center">1 año</div>
+                              <div class="col-lg-2 text-center">7.75%</div>
+                              <div class="col-lg-2 text-center">ND</div>
+                              <div class="col-lg-2 text-center">10000</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <div class="row align-items-center flex-row">
+                              <div class="col-lg-2"><img src="img/logos/compartamos.png" style="width: 160px;" alt="hsbc"></div>
+                              <div class="col-lg-2 text-center">Banca Tradicional</div>
+                              <div class="col-lg-2 text-center">1 año</div>
+                              <div class="col-lg-2 text-center">8%</div>
+                              <div class="col-lg-2 text-center">ND</div>
+                              <div class="col-lg-2 text-center">25000</div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
 
                   </div>

@@ -19,6 +19,10 @@ Route::get('/registro', function(){
     return view('registro');
 });
 
+Route::get('/domicilio', function(){
+  return view('domicilio');
+});
+
 Route::get('/dashboard', 'RegistroController@iniciar');
 Route::get('/opciones-inversion', 'RegistroController@investment');
 Route::get('/movimientos', 'RegistroController@movements');
