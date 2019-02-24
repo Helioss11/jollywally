@@ -17,7 +17,10 @@
             <a href="#" class="sidebar-toggler text-gray-500 mr-4 mr-lg-5 lead">
               <i class="fas fa-align-left"></i>
             </a>
-            <a href="index.html" class="navbar-brand font-weight-bold text-uppercase text-base">JollyWally Dashboard</a>
+            <a href="index.html" class="navbar-brand font-weight-bold text-uppercase text-center">
+              JollyWally
+              <img src="{{ asset('img/ywPink.png') }}" alt="" style="width:10%;display: inline;">
+            </a>
             <ul class="ml-auto d-flex align-items-center list-unstyled mb-0">
             <li class="nav-item">
               <form id="searchForm" class="ml-auto d-none d-lg-block">
