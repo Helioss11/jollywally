@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/registro', function(){
+    return view('registro');
+});
+
+Route::post('/dashboard', 'RegistroController@iniciar');
