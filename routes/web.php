@@ -19,4 +19,9 @@ Route::get('/registro', function(){
     return view('registro');
 });
 
+Route::get('/dashboard', 'RegistroController@iniciar');
+Route::get('/opciones-inversion', 'RegistroController@investment');
+Route::get('/movimientos', 'RegistroController@movements');
+Route::get('/transferencias', 'RegistroController@transfers');
+
 Route::post('/dashboard', 'RegistroController@iniciar');

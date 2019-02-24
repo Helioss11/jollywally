@@ -16,4 +16,22 @@ class RegistroController extends Controller{
 
   }
 
+  public function investment(){
+
+    return view('investment');
+
+  }
+
+  public function movements(){
+
+    return view('movements');
+
+  }
+
+  public function transfers(){
+
+    return view('transfers');
+
+  }
+
 }

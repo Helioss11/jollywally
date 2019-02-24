@@ -4063,7 +4063,7 @@ code {
 }
 
 .card-body {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .card-title {
@@ -4188,4 +4188,9 @@ code {
 
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
+}
+
+.btn-group .btn[aria-expanded="true"]{
+  background-color: #f54c81;
+  border-color: #f53f79;
 }

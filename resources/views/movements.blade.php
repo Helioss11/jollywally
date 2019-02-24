@@ -69,9 +69,9 @@
         <div id="sidebar" class="sidebar py-3">
           <div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
           <ul class="sidebar-menu list-unstyled">
-            <li class="sidebar-list-item"><a href="/dashboard" class="sidebar-link text-muted active"><i class="o-statistic-1 mr-3 text-gray"></i><span>Dashboard</span></a></li>
+            <li class="sidebar-list-item"><a href="/dashboard" class="sidebar-link text-muted"><i class="o-statistic-1 mr-3 text-gray"></i><span>Dashboard</span></a></li>
             <li class="sidebar-list-item"><a href="/opciones-inversion" class="sidebar-link text-muted"><i class="o-sales-up-1 mr-3 text-gray"></i><span>Opciones de inversión</span></a></li>
-            <li class="sidebar-list-item"><a href="/movimientos" class="sidebar-link text-muted"><i class="o-table-content-1 mr-3 text-gray"></i><span>Movimientos</span></a></li>
+            <li class="sidebar-list-item"><a href="/movimientos" class="sidebar-link text-muted active"><i class="o-table-content-1 mr-3 text-gray"></i><span>Movimientos</span></a></li>
             <li class="sidebar-list-item"><a href="/transferencias" class="sidebar-link text-muted"><i class="o-stack-1 mr-3 text-gray"></i><span>Transferencias</span></a></li>
           </ul>
         </div>
