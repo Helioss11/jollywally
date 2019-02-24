@@ -8,7 +8,8 @@ class RegistroController extends Controller{
 
   public function __construct(){
 
-    $this->host = "https://dev.apilab.gentera.com.mx/";
+    $this->host = "https://dev.apilab.gentera.com.mx/account/";
+    // $this->host = "http://joshuashdz-c4e78821-eval-test.apigee.net/v1/carriers/";
 
   }
 
@@ -53,7 +54,7 @@ class RegistroController extends Controller{
             'Code' => 'ZCVELE',
             'ID' => 'ARMNJR92120714H700'
           ],
-          'CardIdentification' => '2867272',
+          'CardIdentification' => '2867244',
           'RegionBirth' => 'DF',
           'BirthCountryCode' => 'MX',
           'CitizenshipCode' => 'MX',
@@ -80,16 +81,20 @@ class RegistroController extends Controller{
     ];
 
     // echo json_encode($formParams); exit;
-
+    // $formParams = json_decode('{"MessageHeader":{"CreationDateTime":"2001-01-03T21:34:11Z"},"Level2AccountCreationData":{"Identifiers":{"ServiceOfficeID":"242","CommerceID":"J211","OriginID":"Z06"},"BusinessPartnerCreateLevel2AccountData":{"NameData":{"GivenName":"Figueroa","MiddleName":"Maya","FamilyName":"Helios","AditionalFamilyName":""},"BirthDate":"1988-03-11","Gender":"0","DocumentIdentifier":{"Code":"ZCVELE","ID":"ARMNJR92120714H700"},"CardIdentification":"2867272","RegionBirth":"DF","BirthCountryCode":"MX","CitizenshipCode":"MX","PhoneData":{"PhoneTypeID":"6","PhoneNumber":{"SubscriberID":"5534286389"}},"AddressData":{"AddressTypeCode":"XXDEFAULT","StreetName":"Marsella","CountryCode":"MX","RegionCode":"DF","CityName":"Mexico","DistrictName":"Juarez","AdditionalCityName":"Cuauhtemoc","StreetPostalCode":"06600","HouseID":"3","AdditionalHouseID":"21"}}}}', 1);
     $client = new \GuzzleHttp\Client([
       'verify' => false,
       'headers' => [
         'Content-Type' => 'application/json'
-      ]
+      ],
+      'base_uri' => $this->host
     ]);
 
-    $response = $client->request('POST', $this->host . 'account/level2', [
-      'form_params' => $formParams
+    $response = $client->request('POST', 'level2', [
+      'headers' => [
+        'Content-Type' => 'application/json'
+      ],
+      'json' => $formParams
     ]);
 
     $content = $response->getBody()->getContents();
