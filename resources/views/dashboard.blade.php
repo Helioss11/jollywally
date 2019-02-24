@@ -11,7 +11,6 @@
       <link rel="stylesheet" href="{{ asset('css/style.pink.css') }}" id="theme-stylesheet">
       <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     </head>
-    <!-- {{ json_encode($data['apiData']) }} -->
     <body>
       <header class="header">
         <nav class="navbar navbar-expand-lg px-4 py-2 bg-white shadow">
@@ -79,91 +78,90 @@
         <div class="page-holder w-100 d-flex flex-wrap">
           <div class="container-fluid px-xl-5">
             <section class="py-4">
-              <div class="row">
-                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
-                  <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
-                    <div class="flex-grow-1 d-flex align-items-center">
-                      <div class="dot mr-3 bg-violet"></div>
-                      <div class="text">
-                        <h6 class="mb-0">Data consumed</h6><span class="text-gray">145,14 GB</span>
+                <div class="row">
+                  <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                      <div class="flex-grow-1 d-flex align-items-center">
+                        <div class="dot mr-3 bg-violet"></div>
+                        <div class="text">
+                          <h6 class="mb-0">Capital disponible</h6><span class="text-gray">$44,500.00</span>
+                        </div>
                       </div>
+                      <div class="icon text-white bg-violet"><i class="fas fa-server"></i></div>
                     </div>
-                    <div class="icon text-white bg-violet"><i class="fas fa-server"></i></div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                      <div class="flex-grow-1 d-flex align-items-center">
+                        <div class="dot mr-3 bg-green"></div>
+                        <div class="text">
+                          <h6 class="mb-0">Capital invertido</h6><span class="text-gray">$20,000.00</span>
+                        </div>
+                      </div>
+                      <div class="icon text-white bg-green"><i class="far fa-clipboard"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                      <div class="flex-grow-1 d-flex align-items-center">
+                        <div class="dot mr-3 bg-blue"></div>
+                        <div class="text">
+                          <h6 class="mb-0">Capital pendiente</h6><span class="text-gray">$10,364.46</span>
+                        </div>
+                      </div>
+                      <div class="icon text-white bg-blue"><i class="fa fa-dolly-flatbed"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                      <div class="flex-grow-1 d-flex align-items-center">
+                        <div class="dot mr-3 bg-red"></div>
+                        <div class="text">
+                          <h6 class="mb-0">En mora</h6><span class="text-gray">$633.00</span>
+                        </div>
+                      </div>
+                      <div class="icon text-white bg-red"><i class="fas fa-receipt"></i></div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
-                  <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
-                    <div class="flex-grow-1 d-flex align-items-center">
-                      <div class="dot mr-3 bg-green"></div>
-                      <div class="text">
-                        <h6 class="mb-0">Open cases</h6><span class="text-gray">32</span>
-                      </div>
-                    </div>
-                    <div class="icon text-white bg-green"><i class="far fa-clipboard"></i></div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
-                  <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
-                    <div class="flex-grow-1 d-flex align-items-center">
-                      <div class="dot mr-3 bg-blue"></div>
-                      <div class="text">
-                        <h6 class="mb-0">Work orders</h6><span class="text-gray">400</span>
-                      </div>
-                    </div>
-                    <div class="icon text-white bg-blue"><i class="fa fa-dolly-flatbed"></i></div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
-                  <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
-                    <div class="flex-grow-1 d-flex align-items-center">
-                      <div class="dot mr-3 bg-red"></div>
-                      <div class="text">
-                        <h6 class="mb-0">New invoices</h6><span class="text-gray">123</span>
-                      </div>
-                    </div>
-                    <div class="icon text-white bg-red"><i class="fas fa-receipt"></i></div>
-                  </div>
-                </div>
-              </div>
             </section>
             <section class="py-4">
               <div class="row mb-4">
-                <div class="col-lg-8 mb-4 mb-lg-0">
-                  <div class="card">
-                    <div class="card-header">
-                      <h2 class="h6 text-uppercase mb-0">Line chart Example</h2>
+                  <div class="col-lg-7 mb-4 mb-lg-0">
+                    <div class="card">
+                      <div class="card-header">
+                        <h2 class="h6 text-uppercase mb-0">progreso de estado financiero vs mínimo optimo</h2>
+                      </div>
+                      <div class="card-body">
+                        <div class="chart-holder mt-5 mb-5">
+                          <iframe width="550" height="150" src="https://datastudio.google.com/embed/reporting/1zOpH4QqQW46zQxyKoO37qG2VL8lbd7Mj/page/aV5i" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                      </div>
                     </div>
-                    <div class="card-body">
-                      <p class="mb-5 text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                      <div class="chart-holder mt-5 mb-5"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                        <canvas id="lineChartExample" width="618" height="309" class="chartjs-render-monitor" style="display: block; width: 618px; height: 309px;"></canvas>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h2 class="h6 text-uppercase mb-0">composición general de la cartera</h2>
+                      </div>
+                      <div class="card-body">
+                        <div class="chart-holder">
+                          <iframe width="350" height="200" src="https://datastudio.google.com/embed/reporting/10YO7qsxNIlBRuD0RYjWzq4SsKXDE9QmK/page/jG6i" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3">
+                      <div class="card-header">
+                        <h2 class="h6 text-uppercase mb-0">estado del capital invertido</h2>
+                      </div>
+                      <div class="card-body">
+                        <div class="chart-holder">
+                          <iframe width="350" height="200" src="https://datastudio.google.com/embed/reporting/10YO7qsxNIlBRuD0RYjWzq4SsKXDE9QmK/page/LH6i" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="card mb-4">
-                    <div class="card-header">
-                      <h2 class="h6 text-uppercase mb-0">Line chart Example</h2>
-                    </div>
-                    <div class="card-body">
-                      <div class="chart-holder"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                        <canvas id="lineCahrtsm1" width="262" height="131" class="chartjs-render-monitor" style="display: block; width: 262px; height: 131px;"></canvas>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-3">
-                    <div class="card-header">
-                      <h2 class="h6 text-uppercase mb-0">Bar chart Example</h2>
-                    </div>
-                    <div class="card-body">
-                      <div class="chart-holder"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                        <canvas id="barChartExample" width="262" height="131" class="chartjs-render-monitor" style="display: block; width: 262px; height: 131px;"></canvas>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </section>
           </div>
         </div>
