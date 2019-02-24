@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="{{ asset('css/style.pink.css') }}" id="theme-stylesheet">
       <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     </head>
+    <!-- {{ json_encode($data['apiData']) }} -->
     <body>
       <header class="header">
         <nav class="navbar navbar-expand-lg px-4 py-2 bg-white shadow">

@@ -22,7 +22,8 @@
               <h1 class="text-base text-primary text-uppercase mb-4">JollyWally</h1>
               <h2 class="mb-4">Registro</h2>
               <p class="text-muted">Crear cuenta</p>
-              <form id="loginForm" action="" class="mt-4">
+              <form id="loginForm" action="/registro" class="mt-4" method="post">
+                {{ csrf_field() }}
                 <div class="form-group mb-3">
                   <input type="text" name="username" placeholder="Correo electrónico" class="form-control border-0 shadow form-control-sm" required>
                 </div>
@@ -73,15 +74,15 @@
                     <div class="col-sm-3 select">
                       <select name="month" class="form-control border-0 shadow form-control-sm">
                         <option value="">Mes</option>
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
                         <option value="10">Octubre</option>
                         <option value="11">Noviembre</option>
                         <option value="12">Diciembre</option>
@@ -127,16 +128,19 @@
                 </div>
                 <div class="form-group mb-3">
                     <div class="row">
-                      <div class="col-sm-4">
-                        <label for="year" style="font-size: 12px;">Sexo:</label>
+                      <div class="col-sm-2">
+                        <label for="genre" style="font-size: 12px;">Sexo:</label>
                       </div>
-                      <div class="col-sm-3 custom-control custom-radio custom-control-inline">
+                      <div class="col-sm-3 custom-control custom-radio">
                         <input type="radio" name="genre" id="genre" value="F" class="custom-control-input">
                         <label style="font-size: 12px;" for="genre" class="custom-control-label">Femenino</label>
                       </div>
-                      <div class="col-sm-3 custom-control custom-radio custom-control-inline">
+                      <div class="col-sm-2 custom-control custom-radio">
                         <input type="radio" name="genre" id="genreM" value="M" class="custom-control-input">
                         <label style="font-size: 12px;" for="genreM" class="custom-control-label">Masculino</label>
+                      </div>
+                      <div class="col-sm-5 custom-control custom-radio">
+                        <input type="text" name="phone" placeholder="Teléfono" class="form-control border-0 shadow form-control-sm" required>
                       </div>
                     </div>
                 </div>

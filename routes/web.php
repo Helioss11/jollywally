@@ -28,4 +28,6 @@ Route::get('/opciones-inversion', 'RegistroController@investment');
 Route::get('/movimientos', 'RegistroController@movements');
 Route::get('/transferencias', 'RegistroController@transfers');
 
+Route::post('/registro', 'RegistroController@registro');
 Route::post('/dashboard', 'RegistroController@iniciar');
+Route::post('/domicilio', 'RegistroController@domicilio');

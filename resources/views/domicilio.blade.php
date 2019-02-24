@@ -22,7 +22,15 @@
               <h1 class="text-base text-primary text-uppercase mb-4">JollyWally</h1>
               <h2 class="mb-4">Domicilio</h2>
               <p class="text-muted">Crear cuenta</p>
-              <form id="loginForm" action="" class="mt-4">
+              <form id="loginForm" action="/domicilio" method="post" class="mt-4">
+                {{ csrf_field() }}
+                <input type="hidden" name="username" value="{{ $data['username'] }}">
+                <input type="hidden" name="nombre" value="{{ $data['nombre'] }}">
+                <input type="hidden" name="ap_paterno" value="{{ $data['ap_paterno'] }}">
+                <input type="hidden" name="ap_materno" value="{{ $data['ap_materno'] }}">
+                <input type="hidden" name="birthday" value="{{ $data['birthday'] }}">
+                <input type="hidden" name="genre" value="{{ $data['genre'] }}">
+                <input type="hidden" name="phone" value="{{ $data['phone'] }}">
                 <div class="form-group mb-3">
                   <div class="row">
                     <div class="col-md-6">
@@ -38,14 +46,21 @@
                 </div>
                 <div class="form-group mb-3">
                   <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <input type="text" name="colonia" placeholder="Colonia" class="form-control border-0 shadow form-control-sm" required>
                     </div>
-                    <div class="col-md-4">
-                        <input type="text" name="ciudad" placeholder="Ciudad" class="form-control border-0 shadow form-control-sm" required>
+                    <div class="col-md-6">
+                        <input type="text" name="delegacion" placeholder="Delegación" class="form-control border-0 shadow form-control-sm" required>
                     </div>
-                    <div class="col-md-4">
-                        <input type="text" name="zipcode" placeholder="Código postal" class="form-control border-0 shadow form-control-sm" required>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" name="ciudad" placeholder="Ciudad" class="form-control border-0 shadow form-control-sm" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="zipcode" placeholder="Código postal" class="form-control border-0 shadow form-control-sm" required>
                     </div>
                   </div>
                 </div>
